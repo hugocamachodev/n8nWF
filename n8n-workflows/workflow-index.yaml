@@ -3,8 +3,8 @@ series:
     context: "This video demonstrates a complete n8n workflow that integrates a conversational voice AI agent using ElevenLabs with a vector database (Pine Cone) for Retrieval Augmented Generation (RAG). The system pulls project data from a Google Doc via n8n workflows, processes user queries through a webhook, and responds with natural voice interactions. Creator Nate Herk explains how to set up the web hook, the ElevenLabs voice agent, and the vector search, offering a free template available in his Skool community."
     yt_title: "Having an Actual Conversation with Data Using an ElevenLabs Voice Agent and n8n"
     files:
-      - "Voice-RAG-Agent-1" 
-      - "Voice-RAG-Agent-2"
+      - "Voice-RAG-Agent-1.json" 
+      - "Voice-RAG-Agent-2.json"
 
   MCP-Server-Sales-Agent:
     context: "This system automates social media sales across WhatsApp, Facebook Messenger and Instagram DMs using a no-code workflow. It features a multi-agent AI setup with sub-agents handling CRM (via AirTable) and calendar scheduling. The workflow leverages RAG with Superbase, uses the WhatsApp Business API with outbound template messaging through webhooks, and demonstrates MCP integration for dynamic API tool selection. Created by Ben AI, a free template is provided for immediate implementation."
@@ -17,7 +17,7 @@ series:
 files:
   creative-team-agent.json:
     context: "This system, created by Nick Saraev, is an end-to-end PPC automation workflow that scrapes high-performing ads from the Facebook Ad Library using an API (via Appify) and then processes the assets with AI. It leverages modules for HTTP requests, Google Drive for file storage and organization, Google Sheets for logging, and OpenAI for image analysis and creative prompt generation. The workflow transforms scraped ad components into customized creative assets. Free template available."
-    yt_titles: "can't believe i built a $70k ai creative team in 66mins using only N8N"
+    yt_title: "can't believe i built a $70k ai creative team in 66mins using only N8N"
 
   rag-agent.json:
     context: "This system demonstrates a no-code AI agent that enhances vector-based document retrieval with a Cohere-powered re-ranker and metadata filtering. It uses a Superbase vector database to store chunked data and dynamically applies metadata filters for targeted queries. The workflow refines results by reranking returned chunks, ensuring accurate extraction of rule-based content. Developed by Nate Herk, the system is available via a free template in his Skool community."
