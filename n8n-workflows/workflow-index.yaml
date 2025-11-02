@@ -1,0 +1,84 @@
+series:
+  Voice-RAG-Agent:
+    context: "This video demonstrates a complete n8n workflow that integrates a conversational voice AI agent using ElevenLabs with a vector database (Pine Cone) for Retrieval Augmented Generation (RAG). The system pulls project data from a Google Doc via n8n workflows, processes user queries through a webhook, and responds with natural voice interactions. Creator Nate Herk explains how to set up the web hook, the ElevenLabs voice agent, and the vector search, offering a free template available in his Skool community."
+    yt_title: "Having an Actual Conversation with Data Using an ElevenLabs Voice Agent and n8n"
+    files:
+      - "Voice-RAG-Agent-1" 
+      - "Voice-RAG-Agent-2"
+
+  MCP-Server-Sales-Agent:
+    context: "This system automates social media sales across WhatsApp, Facebook Messenger and Instagram DMs using a no-code workflow. It features a multi-agent AI setup with sub-agents handling CRM (via AirTable) and calendar scheduling. The workflow leverages RAG with Superbase, uses the WhatsApp Business API with outbound template messaging through webhooks, and demonstrates MCP integration for dynamic API tool selection. Created by Ben AI, a free template is provided for immediate implementation."
+    yt_title: "This AI Agent Automates Your Sales on ALL Social Media (+MCP)"
+    files:
+      - "MCP-Server-Sales-Agent - 1.json" 
+      - "MCP-Server-Sales-Agent - 2.json"
+      - "MCP-Server-Sales-Agent - 3.json"
+
+files:
+  creative-team-agent.json:
+    context: "This system, created by Nick Saraev, is an end-to-end PPC automation workflow that scrapes high-performing ads from the Facebook Ad Library using an API (via Appify) and then processes the assets with AI. It leverages modules for HTTP requests, Google Drive for file storage and organization, Google Sheets for logging, and OpenAI for image analysis and creative prompt generation. The workflow transforms scraped ad components into customized creative assets. Free template available."
+    yt_titles: "can't believe i built a $70k ai creative team in 66mins using only N8N"
+
+  rag-agent.json:
+    context: "This system demonstrates a no-code AI agent that enhances vector-based document retrieval with a Cohere-powered re-ranker and metadata filtering. It uses a Superbase vector database to store chunked data and dynamically applies metadata filters for targeted queries. The workflow refines results by reranking returned chunks, ensuring accurate extraction of rule-based content. Developed by Nate Herk, the system is available via a free template in his Skool community."
+    yt_title: "n8n Just Leveled Up RAG Agents (Reranking & Metadata)"
+
+  meeting-prep-agent.json:
+    context: "Mark Kashef demonstrates an advanced automation workflow that converts Calendly bookings into tailored AI-generated meeting prep audio files. This system captures booking details and uses the Perplexity API for deep research on both the attendee and their company. It then consolidates insights using OpenAI’s o3-mini for reasoning and text-to-speech for audio generation, before sending a personalized email via Gmail. The free template is available via Gumroad for immediate use."
+    yt_title: "This n8n Automation Does ALL My Meeting Prep While I Sleep"
+  
+  youtube-strategist-agent.json:
+    context: "This system is a fully automated YouTube strategist workflow built in n8n that scrapes and analyzes YouTube channels to extract top-performing videos from niche channels, analyzes titles for power words, evaluates thumbnails using OpenAI, and aggregates viewer comments for insight. It combines scheduled tasks (weekly and daily) with API integrations via Appify and Google Sheets to generate actionable video ideation and packaging. Developed and demonstrated by Nate Herk, this free template offers a complete guided setup for creating a data-driven content strategy."
+    yt_title: "I Built a YT Strategist AI Agent That Makes Me $6k/mo (free template n8n)"
+  
+  video-asmr-yt-shorts-agent.json:
+    context: "A fully automated system using n8n integrates Google V3’s text-to-video AI to generate ASMR glass-cutting fruit videos. It employs an idea agent with a structured output parser to select unique subjects and a prompt agent to create cinematic, detailed video prompts. The workflow leverages foul API for video generation, Google Sheets for rotating recent items, and Botato for auto-posting on YouTube, Instagram, and TikTok. Created by Nate Herk, the free template is available via his Skool community."
+    yt_title: "This AI System Posts Viral ASMR Shorts Hourly (free template)"
+  
+  multi-agent-example.json:
+    context: "In this detailed demonstration, Nate Herk shows how to build a multi-agent orchestrator system using n8n's visual drag-and-drop interface. The workflow breaks down a complex task into specialized sub-agents (email, contacts, calendar, content creation) that communicate via sub-workflows, enabling robust task delegation. Key components include integration with Gmail, Airtable, and model selection (GPT-4.1 mini, Flash), all configured in n8n to provide a reusable, modular AI automation system."
+    yt_title: "Multi-Agent Systems Have NEVER Been EASIER to Build (n8n, no code)"
+  
+  open-ai-image-agent.json:
+    context: "This system integrates OpenAI latest image generation model with an n8n workflow that programmatically creates and merges images. The blueprint demonstrates two concrete use cases: generating a standalone image from API responses and combining two images (fetched from Google Drive) into one output via aggregators and HTTP request nodes. It covers Base64 conversion, prompt customization, and API key setup. Developed by Jono Catliff."
+    yt_title: "Connect ChatGPTs New Image Model to n8n (Step-By-Step)"
+  
+  youTube-growth-automation-agent.json:
+    context: "This workflow system automates YouTube channel growth by researching trending videos, filtering by views and recency, and then generating improved video metadata. It combines a form trigger, HTTP requests to a YouTube scraper and transcript API, Google Sheets for data management, and OpenAI nodes for thumbnail analysis and title/outline generation. Built entirely in n8n, creator Nolan Harper shares his free template from the AI Automation Vault to help you replicate the success."
+    yt_title: "How I 14x My YouTube Channel in 7 Days (AI + n8n Workflow Breakdown)"
+
+  short-form-videos-viral-agent.json:
+    context: "This system is an automated content creation workflow that transforms a simple Google Sheet entry into high-quality viral social media shorts. It integrates multiple AI services including FAL’s Flux for image generation, Cling for video creation, ElevenLabs for audio synthesis, and Creatomate for stitching media together. Blotato is used for auto-posting to Instagram, TikTok, and YouTube. Built by Nate Herk, the workflow runs entirely on no-code principles and comes with a free template download via his Skool community."
+    yt_title: "I Built a 24/7 Viral Shorts Machine with No-Code (free n8n template)"
+
+  AI-Content-Idea-Generator-agent.json:
+    context: "This workflow automates content ideation by scraping YouTube comments via an HTTP request to an Appify actor, then processing them with AI nodes using OpenAI models. It filters and extracts comments containing content ideas, performs real-time research via a Tavi integration, and finally updates the results in Google Sheets. Built entirely in n8n with robust JSON data handling and API integrations, this free template is created by Nolan Harper."
+    yt_title: "1,200+ Content Ideas Per Day with AI (Free Template)"
+
+  ai-think-tool-implemented-agent.json:
+    context: "In this video, Nate Herk demonstrates an AI agent workflow that leverages a new Think Tool inspired by Anthropic’s structured reasoning approach. The system integrates multiple agents—including contact, email, calendar, and web search tools—to execute multi-step tasks such as scheduling events, sending notifications, and fetching quotes. It highlights advanced LLM integrations (e.g., GPT 4.1 and Claude 3.5) and tool output analysis for sequential decision-making with in-built validation steps. The free template is available via the Skool community."
+    yt_title: "n8n Just Leveled Up AI Agents (Anthropic's Think Method)"
+
+  Social-Media-Scraper-Agent.json:
+    context: "This system automates scraping of posts and video transcripts from multiple social platforms including LinkedIn, Instagram, YouTube, and X. Built entirely in n8n, it integrates HTTP request nodes, AI text classification, and Google Sheets for deduplication and data aggregation. The workflow leverages pre-built Appify scrapers and looping mechanisms for batch processing. Created by Nolan Harper, this free template enables competitor research, content repurposing, and audience insights."
+    yt_title: "Steal This AI Post Scraper (Free n8n Build)"
+
+  create-webpage-Lovable-agent.json:
+    context: "This system, demonstrated by Nate Herk, is a dynamic workflow that integrates Lovable with an AI-powered excuse generator. It uses n8n’s webhook trigger to capture user input from a Lovable web app, passes the data to an AI agent (configured with OpenAI's chat model) for generating creative excuses, and then returns the output back to the app. Additional features include a dynamic level system and a tone selection drop-down, all available via a free template from the Skool community."
+    yt_title: "Build Anything with Lovable + n8n AI Agents (beginner's guide)"
+
+  Viral-Content-AI-Agent.json:
+    context: "This system is a complete workflow that automates the analysis of viral Instagram Reels and other social media videos. It scrapes data from Instagram using Apify, organizes influencer data from Airtable, and then processes video content through Google Gemini AI for detailed analysis of hooks, ideas, and scripts. The workflow is set up in n8n and is designed for content creators and agencies. Created by Oleg Melnikov, the system is available as a free template."
+    yt_title: "I Built an AI SYSTEM For Viral Content (n8n Tutorial)"
+
+  Agentic-RAG-System-agent.json:
+    context: "In this video, Cole Medin presents an advanced Agentic RAG system that overcomes traditional RAG limitations by dynamically switching between vector-based document lookups and SQL-driven analysis of tabular data. The workflow includes modules for file extraction from Google Drive, intelligent data chunking, Postgres and Supabase integration, and embedding using OpenAI’s models. This comprehensive setup enables accurate source citation, improved context retrieval and detailed data analysis. The free template is available on GitHub."
+    yt_title: "I Built the ULTIMATE n8n RAG AI Agent Template"
+
+  Airtable-AI-Agent-agent.json:
+    context: "This workflow integrates an AI agent with Airtable data, enabling dynamic data queries, math operations, filtering, and map generation. It uses a chat-based agent configuration with OpenAI for code interpretation and response generation, and Mapbox for visual mapping. The system is implemented in n8n and is designed to automatically retrieve base and schema details from Airtable. Created by Mark and Philipp from 5minAI, it comes with a free template available for community use."
+    yt_title: "DOUBLE Your Business with this AI Agent for Airtable"
+
+  Vector-DB-Integration-agent.json:
+    context: "Nate Herk presents a detailed workflow for optimizing vector database operations using a no-code automation system. The system covers inserting data into Pinecone, handling metadata, and implementing various text splitting techniques (recursive, token, and character splitting) to fine-tune embeddings for Retrieval-Augmented Generation (RAG). The tutorial explains API configurations, binary versus JSON processing, and error handling for embedding mismatches. The free template is accessible via his Skool community."
+    yt_title: "Vector Database Optimization with n8n: Metadata, Text Splitting, & Embeddings"
